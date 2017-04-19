@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type= "text/xsl" href="cfcp1.xsl"?>-->
+<!--<?xml-stylesheet type= "text/xsl" href="cfcp2.xsl"?>-->
+<?xml-stylesheet type= "text/xsl" href="cfcp3.xsl"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD
+ead.dtd (Encoded Archival Description (EAD) Version
+2002)//EN" "ead.dtd">
+
+
+<!-- Your Score: 15 out of 15 points. Excellent! 
+     Each error is worth -0.3 point.   -->
+	 
+<ead>
+	<eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+	<eadid countrycode="us" identifier="40266" mainagencycode="camocfc" publicid="-//California Federation of Chaparral Poets//TEXT(US::CaMoCFC::CFCP1::California Federation of Chaparral Poets(CFCP)Records)//EN">CFCP1</eadid>
+		<filedesc>
+			<titlestmt> 
+				<titleproper type="filing">Guide to the California Federation of Chaparral Poets Records
+				</titleproper>
+				<author>Collection processed and description prepared by<lb/>
+				Lori Lindberg, Archivist<lb/>
+    			San Francisco, CA<lb/>
+      			January 14, 2011<lb/>
+				</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>California Federation of Chaparral Poets</publisher>
+				<address>
+				<addressline>PO Box 1161</addressline>
+				<addressline>Modesto,CA, 95353-1161</addressline>
+				</address>
+			</publicationstmt>
+			<notestmt>
+				<note>
+				<p>&#0169; 2011</p>
+				</note>
+			</notestmt>
+		</filedesc>
+		<profiledesc>
+			<creation>Machine-readable finding aid created by<lb/>
+			Sandy Ortiz<lb/>
+			San Jose State University<lb/>
+			<date type="encoding">May 11, 2015</date>
+			</creation>
+		</profiledesc>
+		<revisiondesc>
+			<change>
+			<date type="revision">December 18, 2012</date>
+			<item></item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<!--Excellent work with the OAC BPGs here! -->
+	<archdesc level="collection" relatedencoding="marc21">
+		<did>
+			<head>Descriptive Summary</head>
+			<unitid label="Collection Number: " repositorycode="camocfc" countrycode="us">CFCP1</unitid>
+			<unittitle label="Title: " encodinganalog="130">California Federation of Chaparral Poets(CFCP)Records</unittitle>
+			<unitdate label="Dates: " type="inclusive" normal="1943-2013">1943-2013</unitdate>
+			<unitdate type="bulk" normal="1990-2012">1990-2012 bulk</unitdate>
+			<origination label="Creator: ">California Federation of Chaparral Poets</origination>
+			<physdesc label="Extent: ">
+				<extent>12 record cartons, </extent>
+				<extent>12 cubic feet.</extent>
+			</physdesc>
+			<repository label="Repository: "><corpname source="lcnaf">California Federation of Chaparral Poets</corpname><lb/>
+				<address>
+				<addressline>PO Box 1161</addressline>
+				<addressline>Modesto, CA 95353-1161</addressline>
+				</address>
+			</repository>
+			<physloc label="Shelf Location: " encodinganalog="852">
+				For current information on the location of these materials, please consult the president of the CFCP:
+				info@ChaparralPoets.org
+				PO Box 1161
+				Modesto, CA, 95353-1161
+			</physloc>
+			<abstract label="Abstract: " encodinganalog="520">
+				The California Federation of Chaparral Poets, Inc. (CFCP) records reflect
+				the administration and events of CFCP, one of the oldest and largest
+				organizations in the world that supports and encourages the creation
+				and celebration of poetry. The collection contains the minutes of their
+				Board, annual convention programs, contest publications and member
+				publications. Their annual poetry contests, conventions and publications 
+				are filled with the best of California poetry and the poetry of the world.
+			</abstract>
+		</did>
+		<!--Nice descgrp-->
+		<descgrp>
+			<head>Administrative Information</head>
+			<note><p>
+				<emph render="italic"> A copy of this collection guide is located in an unnumbered folder at the front of Box 1.</emph></p>
+			</note>
+			<accessrestrict>
+				<head >Access:</head>
+				<p>Collection is open for research with no restrictions.</p>
+			</accessrestrict>
+			<accruals>
+				<head >Accruals:</head>
+				<p>Additional materials may be added to this collection as donations are
+				received.</p>
+			</accruals>
+			<relatedmaterial encodinganalog="544">
+				<head >Additional Materials:</head>
+				<p>Related collections of materials are housed at Glendale, CA Public
+				Library as well as the California State Library in Sacramento, CA.</p>
+			</relatedmaterial>
+			<userestrict>
+				<head >Publication Rights:</head>
+				<p>Use of the materials is governed by all applicable copyright law. CFCP
+				reserves the right to restrict any materials from reproduction at any
+				time. Property rights reside with the CFCP. Literary rights are
+				retained by the creators of the records and their heirs. For permission to
+				reproduce or to publish, please contact CFCP.</p>
+			</userestrict>
+			<prefercite>
+				<head >Preferred Citation:</head>
+				<p>Suggested citation of these records is: CFCP1, California
+				Federation of Chaparral Poets Records.</p>
+			</prefercite>
+			<langmaterial label="Language of Materials:"> 
+				Materials are in <language langcode="eng" scriptcode="160" encodinganalog="041">English.</language>
+			</langmaterial>
+		</descgrp>
+		<!--Awesome. I think deflists are pretty. But I'm a nerd. -->		
+		<arrangement encodinganalog="351" id="arrangement">
+				<head >Organization:</head>
+				<p>The collection is organized in 15 series, with subseries or file
+				subarrangements where appropriate.</p>
+			<list type = "deflist">		
+				<defitem> <label>Series I.</label><item> Board of Directors records</item></defitem>
+				<defitem> <label>Series II.</label><item> Brochure and Related Artwork</item></defitem>
+				<defitem> <label>Series III.</label><item> By-Laws and Articles of Incorporation</item></defitem>
+				<defitem> <label>Series IV.</label><item> California State Library</item></defitem>
+				<defitem> <label>Series V.</label><item><ref target="v.f"> Chapters</ref></item></defitem>
+				<defitem> <label>Series VI.</label><item> Contests</item></defitem>
+				<defitem> <label>Series VII.</label><item> Conventions</item></defitem>
+				<defitem> <label>Series VIII.</label><item> Correspondence</item></defitem>
+				<defitem> <label>Series IX.</label><item> Administrative and Subject Files</item></defitem>
+				<defitem> <label>Series X.</label><item> Allied Poetry Organizations</item></defitem>
+				<defitem> <label>Series XI.</label><item> Treasurer records</item></defitem>
+				<defitem> <label>Series XII.</label><item> Chaparral newsletter – “Chaparral Updrafts”</item></defitem>
+				<defitem> <label>Series XIII.</label><item> Assorted CFCP and CFCP Chapter Books and Pamphlets</item></defitem>
+				<defitem> <label>Series XIV.</label><item> CFCP Member Publications</item></defitem>
+				<defitem> <label>Series XV.</label><item> Oversize Materials</item></defitem>
+			</list>
+		</arrangement>
+		<!--Looks good. -->
+		<bioghist>
+				<head >History of the California Federation of Chaparral Poets, Inc.</head>
+				<p>The story of Chaparral began in 1939 when the city of Glendale
+				organized its First Annual Festival of Arts. The Poetry Committee’s
+				display included a brochure, “In the Chaparral.”</p>
+				
+				<p>On February 9, 1940, the Glendale Poetry Chapter was formed, followed
+				in March by the Pasadena Poetry Club. From these two groups CFCP was
+				organized.</p>
+				
+				<p>The first convention was held in 1940 at the Glendale YWCA, with more
+				than 300 attending. By January 1942, the Federation had grown to 11
+				Chapters across southern California, and continued to experience steady
+				growth throughout the state.</p>
+				
+				<p>By 1963, when the convention was held in Sacramento, CFCP had
+				become the largest poetry group in the world, with 30 chapters from both
+				northern and southern California, as well as members from more than a
+				dozen other states. Since then, the convention generally alternates
+				between northern and southern host Chapters. It presently has 19 active
+				Chapters.</p>
+				
+			<bioghist>
+				<head >The Name</head>
+				<p>Symbolically the name ‘Chaparral’ was chosen because it is typically
+				Californian, as the low growth of chaparral that covers the hillsides and
+				desert wastes of California, adding beauty and fragrance to barren
+				countrysides, might be applied to poetry singing its way into a war-torn
+				and barren world today.</p>
+				
+					<p><emph render="italic">—from the program of the Third Annual Convention, held in May, 1942 in
+					Hollywood<ptr target="vii.f"/></emph></p>
+					<p>Source: CFCP website: http://www.chaparralpoets.org/history.html</p>
+			</bioghist>
+		</bioghist>
+		<!--Perfect! -->
+		<controlaccess>
+			<head >Controlled Access Headings:</head>
+				<p>Library of Congress Subject Headings:</p>
+				<controlaccess>
+					<head >Personal and Corporate Names:</head>
+					<corpname source="lcnaf" role="subject" encodinganalog="610">California Federation of Chaparral Poets</corpname>
+					<persname source="lcnaf" role="subject">Wilson, Katharine Margaret</persname>
+				</controlaccess>
+				<controlaccess>
+					<head >General Subjects:</head>
+					<geogname source="lcsh" role="subject">California--Poetry.</geogname>
+					<subject source="lcsh" encodinganalog="650">Poetry, English--20th century.</subject>
+					<subject source="lcsh" encodinganalog="650">Poetry, Modern--Congresses.</subject>
+				</controlaccess>
+		</controlaccess>
+		<!--The best bibliography. -->
+		<bibliography encodinganalog="581">		
+			<head >Bibliography</head>
+				<p>More information may be found about CFCP in the following publication:
+				<bibref>California Federation of Chaparral Poets (2012). <title render="italic">Chaparral Updrafts.</title>
+				Modesto: California Federation of Chaparral Poets</bibref></p>	
+		</bibliography>
+		<dsc type="combined">
+		<head>Container List</head>
+		<p>Box and Folder numbers in <emph render="bold">bold.</emph></p>
+		<!--Here begins Series I.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box ">1</container>
+				<container type="folder">52 folders</container>
+				<unitid label="Series ">I: </unitid>
+				<unittitle>Board of Directors records</unittitle>
+			</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains job descriptions of organization officers, 
+				all meeting minutes as well as records of all meetings, both 
+				in person and online.</p>
+				</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">1 </container>
+				<unittitle>Job Descriptions</unittitle>
+				</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains job descriptions of organization officers, 
+				all meeting minutes as well as records of all meetings, both 
+				in person and online.</p>
+				</scopecontent>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">2 </container>
+				<unittitle>Board Correspondence</unittitle>
+				</did>
+			</c02>
+			<c02 level = "file">
+				<did>
+				<container type="folder" audience="internal">3-4</container>
+				<unittitle>Meetings:</unittitle>
+				</did>
+					<c03 level="file">
+						<did>
+						<container type="folder">3 </container>
+						<unittitle><unitdate>2013</unitdate></unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+						<container type="folder">4 </container>
+						<unittitle><unitdate>2012</unitdate></unittitle>
+						</did>
+					</c03>		
+			</c02>
+		</c01>
+		<!--Here begins Series II.-->
+		<c01 level="series">
+			<did><container type="box" label="Box " audience="internal">1</container>
+				 <container type="folder" audience="internal">52 folders</container>
+				<unitid label="Series ">II: </unitid>
+				<unittitle>Brochure and Related Artwork</unittitle>
+			</did>
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains materials related to the promotional/informational brochure, 
+				including the artwork used for the publication</p>
+			</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">31 </container>
+				<unittitle>Brochure and Related Artwork</unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series III.-->
+		<c01 level="series">
+			<did><container type="box" label="Box " audience="internal">1</container>
+				 <container type="folder" audience="internal">52 folders</container>
+				 <unitid label="Series ">III: </unitid>
+				 <unittitle>By-laws and Articles of Incorporation</unittitle>
+			</did>
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains copies of organizational By-Laws and records pertaining to incorporation of the CFCP.</p>
+			</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">32</container>
+				<unittitle>By-laws</unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">33</container>
+				<unittitle>Incorporation Papers</unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series IV.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box " audience="internal">1</container>
+				<unitid label="Series ">IV: </unitid>
+				<unittitle>California State Library</unittitle>
+			</did>
+			<scopecontent>
+			<head>Scope and Content: </head>
+			<p>This series contains records pertaining to the California State Library, 
+			the planned deposit of the CFCP Archives to the California State Library and related information</p>
+			</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">34</container>
+				<unittitle>California State Library correspondence and information</unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series V.-->
+		<c01 level="series" id="v.f">
+			<did>
+				<container type="box" label="Box " audience="internal">1</container>
+				<container type="folder" audience="internal">52 folders</container>
+				<unitid label="Series ">V: </unitid>
+				<unittitle>Chapters</unittitle>
+			</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains records pertaining to both past and present Chapters of the CFCP, including newsletters, membership rosters and other
+				administrative and poetry activities.  Records have been separated into separate folders for those Chapters that have enough records to merit this treatment.  For all other chapters where minimal records are available, they have been collated alphabetically.</p>
+				<p><ref target="arrangement">Return to Organization</ref></p>
+				<!--Instructions for Assignment 3 show only 1 internal textual link requested-->
+				</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">35</container>
+				<unittitle>Chapter - Alameda Island, Aeolian, Alpha</unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">43</container>
+				<unittitle>Chapter - Robert Frost</unittitle>
+				</did>
+				<c03 level="file">
+					<did>
+					<container type="folder" audience="internal">44, 45</container>
+					<unittitle>Membership:</unittitle>
+					</did>
+						<c04 level="file">
+							<did>
+							<container type="folder">44</container>
+							<unittitle><unitdate type="inclusive">2001-2013</unitdate></unittitle>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+							<container type="folder">45</container>
+							<unittitle><unitdate type="inclusive">1999-2000</unitdate></unittitle>
+							</did>
+						</c04>
+				</c03>
+				<c03 level="file">
+					<did>
+					<container type="folder">46</container>
+					<unittitle>Contest 1997</unittitle>
+					</did>
+				</c03>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">47</container>
+				<unittitle>Chapter - Poets of the Vineyard</unittitle>
+				</did>
+				<c03>
+					<did>
+					<container type="folder">48</container>
+					<unittitle>Membership materials</unittitle>
+					</did>
+				</c03>
+				<c03>
+					<did>
+					<container type="folder">49</container>
+					<unittitle>newsletters</unittitle>
+					</did>
+				</c03>
+			</c02>
+		</c01>
+		<!--Here begins Series VI.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box ">2</container>
+				<container type="folder">59 folders</container>
+				<unitid label="Series ">VI: </unitid>
+				<unittitle>Contests</unittitle>
+			</did>
+				<scopecontent>
+					<head>Scope and Content: </head>
+					<p>This series encompasses all available materials regarding annual contest planning, advertising, and entries.  It does not include publications, which are gathered with other publications in Series XII.</p>
+				</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">1</container>
+				<unittitle><unitdate>2013</unitdate></unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">2</container>
+				<unittitle><unitdate>2012</unitdate></unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series VII.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box " audience="internal">2</container>
+				<container type="folder" audience="internal">59 folders</container>
+				<unitid label="Series ">VII: </unitid>
+				<unittitle>Conventions</unittitle>
+			</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains pertinent records and available copies of programs for the annual CFCP convention.</p>
+				</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">26</container>
+				<unittitle>Convention - undated</unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">27</container>
+				<unittitle><unitdate>2013</unitdate></unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">28</container>
+				<unittitle><unitdate>2012</unitdate></unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series VIII.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box ">3</container>
+				<container type="folder">29 folders</container>
+				<unitid label="Series ">VIII: </unitid>
+				<unittitle>Correspondence</unittitle>
+			</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains all correspondence of a general nature not directly related to other series in this collection.</p>
+				</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">1</container>
+				<unittitle>Correspondence - undated</unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+				<container type="folder">2</container>
+				<unittitle><unitdate>2013</unitdate></unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series IX.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box " audience="internal">3</container>
+				<container type="folder" audience="internal">29 folders</container>
+				<unitid label="Series ">IX: </unitid>
+				<unittitle>Administrative and Subject Files</unittitle>
+			</did>	
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains general administrative and subject files.  Please see folder titles for specific content descriptions.</p>
+			</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">14</container>
+				<unittitle>History</unittitle>
+				</did>
+			</c02>
+			<c02 level="file">
+				<did>
+					<container type="folder" >15</container>
+					<unittitle>Members: Memorials</unittitle>
+				</did>
+			</c02>
+		</c01>
+		<!--Here begins Series X.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box " audience="internal">3</container>
+				<container type="folder" audience="internal">29 folders</container>
+				<unitid label="Series ">X: </unitid>
+				<unittitle>Allied Poetry Organizations</unittitle>
+			</did>
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series contains This series contains materials from allied poetry organizations, some of which share members with CFCP.</p>
+			</scopecontent>
+			<c02 level="file">
+				<did>
+				<container type="folder">25</container>
+				<unittitle>Berkeley Poets' Dinner programs</unittitle>
+				</did>		
+				<c03 level="file">
+					<did>
+					<container type="folder" audience="internal">26-27</container>
+					<unittitle>Dancing Poetry Festival</unittitle>
+					</did>
+					<c04 level="file">
+						<did>
+						<container type="folder">26</container>
+						<unittitle>2010-</unittitle>
+						</did>
+					</c04>
+					<c04 level="file">
+						<did>
+						<container type="folder">27</container>
+						<unittitle><unitdate type="inclusive">1998-2009</unitdate></unittitle>
+						</did>
+					</c04>
+				</c03>
+			</c02>
+		</c01>
+		<!--Here begins Series XIII.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box ">7</container>
+				<unitid label="Series ">XIII: </unitid>
+				<unittitle>Assorted CFCP and CFCP Chapter Books and Pamphlets</unittitle>
+			</did>
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series consists of all CFCP and cFCP Chapter Publications except Convention Programs, which are filed with their annual Convention materials under Series VII.  Manuals or scrapbooks are not included.</p>
+			</scopecontent>
+			<c02 level="subseries">
+				<did>
+				<unitid label="Subseries ">A: </unitid>
+				<unittitle>Adult Poetry Competition</unittitle>
+				</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This subseries consists of all available Adult Poetry Contest winner publications.  The name of the publication varies over the years.  Titles have been taken directly from publication.</p>
+				</scopecontent>
+					<c03 level="file">
+						<did>
+						<container type="folder">1</container>
+						<unittitle>Prize Winning and Honorable Mention Poems - 1965 California Poetry Competition, Sponsored by CFCP</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+						<container type="folder">2</container>
+						<unittitle>Wings of Pegasus - 1966 California Poetry Competition, Sponsored by CFCP</unittitle>
+						</did>
+					</c03>
+					<c03 level="item">
+						<did>
+						<container type="folder">40-47</container>
+						<unittitle>Prizewinning Poems: </unittitle>
+						</did>
+							<c04 level="item">
+								<did>
+								<unittitle>1986</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1987</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1988</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1989</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1990</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1991</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1992</unittitle>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+								<unittitle>1993</unittitle>
+								</did>
+							</c04>
+					</c03>
+			</c02>
+			<c02 level="subseries">
+				<did>
+				<unitid label="Subseries ">B: </unitid>
+				<unittitle>Youth Competition</unittitle>
+				</did>
+				<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This subseries consists of all available Youth Contest winner publications.  The name of the publication varies over the years.  Titles have been taken directly from publication.</p>
+				</scopecontent>
+				<c03 level="file">
+					<did>
+					<container type="folder">1</container>
+					<unittitle>Winning poems - high school contests, 1971 California Poetry Competition</unittitle>
+					</did>
+				</c03>
+				<c03 level="item">
+					<did>
+					<container type="folder">2-4</container>
+					<unittitle>Winners, Junior and Senior High School Contest</unittitle>
+					</did>
+					<c04 level="item">
+						<did>
+						<unittitle>1974</unittitle>
+						</did>
+					</c04>
+					<c04 level="item">
+						<did>
+						<unittitle>1975</unittitle>
+						</did>
+					</c04>
+					<c04 level="item">
+						<did>
+						<unittitle>1976</unittitle>
+						</did>
+					</c04>
+				</c03>
+			</c02>
+			<c02 level="subseries">
+				<did>
+				<unitid label="Subseries ">C: </unitid>
+				<unittitle>CFCP Publications</unittitle>
+				</did>
+				<c03 level="item">
+					<did>
+					<unittitle>The Chaparral Poet - May 1976</unittitle>
+					</did>
+				</c03>
+				<c03 level="item">
+					<did>
+					<unittitle>The Chaparral Poet - April 1977</unittitle>
+					</did>
+				</c03>
+			</c02>
+		</c01>
+		<!--Here begins Series XIV.-->
+		<c01 level="series">
+			<did>
+				<container type="box" label="Box ">8</container>
+				<unitid label="Series ">XIV: </unitid>
+				<unittitle>CFCP Member Publications</unittitle>
+			</did>
+			<scopecontent>
+				<head>Scope and Content: </head>
+				<p>This series consists of individual publications by member poets or publications in which CFCP member poets' work appear.</p>
+				<list type="simple">
+					<head>Angilly, Richard</head><item>Wind Music</item>
+					<head>Cole, Eddie-Lou</head><item>Strange 1972.</item>
+					<item>Eddie-Lou Cole was a Chaparral poet for many years and a member of the Tumbleweed Chapter.  Her work has been featured in many poetry publications and anthologies around the world.  Some of these journals and her poems are listed here for your convenience:
+						<item>Ekphrasis: A Poetry Journal</item>
+						<item>Gusto</item>
+						<item>Haiku Journal
+							<item>Spring Blossoms, 1990</item>
+							<item>Daughters of Eve, 2003</item>
+						</item>
+						<item>Lines in the Sand
+							<item>Unforgivin, 2001</item>
+							<item>The Door Ajar, 2008</item>
+						</item>
+					</item>
+				</list>
+			</scopecontent>
+		</c01>
+		</dsc>
+	</archdesc>
+</ead>
